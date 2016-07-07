@@ -1,0 +1,119 @@
+main: com.starpeppy.replaycore.StarPep
+version: 1.0
+name: ReplayCORE
+depends: {MVdWPlaceholderAPI}
+commands:
+  gcredits:
+    description: Adds or subtracts credits from the player.
+  gdebits:
+    description: Adds or subtracts debits from the player.
+  gpcredits:
+    description: Adds or subtracts from a specified players credits.
+  gpdebits:
+    description: Adds or subtracts from a specified player debits.
+  credbalance:
+    description: Checks your credits balance!
+    aliases:
+      - cbal
+  debbalance:
+    description: Checks your debits balance!
+    aliases: 
+      - dbal
+  rb:
+    description: Create or delete a building.
+    aliases: 
+      - rbuilding
+  rh:
+    description: Heal yourself or other players.
+    aliases:
+      - rheal
+      - heal
+  rnick:
+    description: Nick yourself.
+    aliases:
+      - rn
+      - nick
+  rg:
+    description: Give items to yourself or other players.
+    aliases:
+      - rgive
+      - i
+      - give
+  rtphere:
+    description: TP a player to you without permission.
+    aliases: 
+      - s
+      - tphere
+  rtptoggle:
+    description: Toggle TP's to you.
+    aliases:
+      - tptoggle
+      - rtpt
+  rtp:
+    description: TP to a player without permission.
+    aliases:
+      - rteleport
+      - tp
+  rtpa:
+    decsription: Ask a player if you can TP to them.
+    aliases: 
+      - rtpask
+      - tpa
+  rsudo:
+    description: Make a player run a command.
+    aliases:
+      - sudo
+      - rsu
+  rtpyes:
+    description: Allow a TP.
+    aliases: 
+      - rtpaccept
+      - tpaccept
+  sp:
+    description: Use the implemented StarPunish plugin.
+    aliases:
+      - starpunish
+      - rsp
+  rglow:
+    description: Glow like a shining star!
+    aliases:
+      - rgl
+      - glow
+  rgamemode:
+    description: Switch gamemodes.
+    aliases:
+      - rgm
+      - gm
+      - gamemode
+      - gmc
+      - creative
+      - gmsp
+      - spectator
+      - gma
+      - adventure
+      - gms
+      - survival
+  rdev:
+    description: A command meant for Bright to test things.
+  rtpno:
+    description: Deny a TP. 
+    aliases: 
+      - rtpdeny
+      - tpdeny
+  rfly:
+    description: Soar through the sky without an elytra!
+    aliases:
+      - rf
+      - fly
+  rtplist:
+    description: List pending requests.
+    aliases:
+      - tplist
+      - rtpl
+  rtpahere:
+    description: Ask a player if they'll TP to you.
+    aliases: tpahere
+  rbuy:
+    description: Buy a building.
+    aliases: 
+      - rbu

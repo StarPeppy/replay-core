@@ -1,0 +1,52 @@
+# Do not use tab!
+#UUID:Cash in int from
+#3842438u8239-235-235-235:3243
+NewPlayers: false
+Collidable: false
+AllPlayers:
+  - +ExamplePerson+
+Players:
+  Credits: 
+    511dd69c-5b8c-3ec4-b039-921b060535b9: 1000000
+  Debits:
+    511dd69c-5b8c-3ec4-b039-921b060535b9: 1000000
+  Houses:
+    uuid: Example
+  AllHouseOwners:
+    - +ExamplePerson+
+SystemTime: 0
+Buildings:
+  AllHouse:
+  - Example
+  House:
+    Example:
+      Owned: No
+      Price: 1000
+      Recurring: Yes
+      Taxes: 0
+      Enabled: Yes
+      X: 131249818498192389182
+      Y: 19238912912381989283198
+      Z: 9989819382193189238193859931849
+AllDisabledCommands:
+  - /ver
+  - /version
+DisabledCommandMessage: "Unknown command. Type \"/help\" for help."
+PermNodesWork: true
+AllDisabledCommandsPerms:
+  ver: "replay.ver"
+  version: "replay.version"
+RC: true
+Sounds: true
+Frozen:
+  All:
+  FrozenToggles:
+    CanTalk: Yope
+    CanMove: Nope
+    CanBreak: Nope
+    CanPlace: Nope
+    CanSendCommands: Nope
+  UUID:
+    #Length:
+    Name: Example
+    Frozen: Yes
